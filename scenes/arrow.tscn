@@ -16,10 +16,11 @@ position = Vector2( 158.06, 0.290878 )
 z_index = 1
 
 [node name="Polygon" type="Polygon2D" parent="Tip"]
-position = Vector2( -24.7164, -6.37881 )
+position = Vector2( -26.5919, -3.50103 )
+scale = Vector2( 1.12278, 0.914986 )
 z_index = -1
 color = Color( 0.2, 0.2, 0.2, 1 )
-polygon = PoolVector2Array( -4.87012, 27.2617, 39.7077, 6.0953, -4.87012, -15.0711 )
+polygon = PoolVector2Array( -4.87012, 22.0879, 38.7714, 3.50842, -4.87012, -15.0711 )
 
 [node name="Label" type="Node2D" parent="."]
 visible = false
@@ -30,8 +31,8 @@ margin_left = -19.374
 margin_top = -5.93085
 margin_right = 20.626
 margin_bottom = 8.06915
-custom_fonts/font = ExtResource( 1 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = ExtResource( 1 )
 text = "label"
 align = 1
 __meta__ = {
@@ -43,10 +44,7 @@ margin_left = -230.84
 margin_top = 42.1225
 margin_right = 231.16
 margin_bottom = 68.1225
-custom_fonts/font = ExtResource( 1 )
 custom_colors/font_color = Color( 0.356863, 0.356863, 0.356863, 1 )
+custom_fonts/font = ExtResource( 1 )
 text = "label"
 align = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
